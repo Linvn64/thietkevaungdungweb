@@ -1,0 +1,12 @@
+nav {
+  background-color: blue;
+  height: 100px;
+}
+main {
+  background-color: aqua;
+  display: flex; 
+}
+footer {
+  background-color: grey;
+  height: 100px; 
+}

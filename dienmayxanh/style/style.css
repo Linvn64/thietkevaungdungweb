@@ -1,0 +1,142 @@
+*{
+  margin: 0px; 
+  padding: 0px; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  font-size: 14px;
+  padding: 5px; 
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: green; 
+}
+
+img {
+  width: 100%; 
+}
+
+nav {
+  margin: 10px; 
+  text-align: right;
+  width: auto; 
+}
+
+.tieu-de {
+  background-color: green;
+  color: white; 
+  padding: 10px 5px;
+  margin: 0px; 
+}
+nav a {
+  color: white; 
+  background-color: rgb(88, 199, 236);
+  font-size: 18px;
+  padding: 5px; 
+  border-radius: 1px;
+}
+
+nav ul li {
+  display: inline-block; 
+}
+
+form {
+  margin-left: 5px;
+  padding: 10px; 
+}
+form .group-dangnhap input{
+  display: block; 
+  width: 90%; 
+  border-style: none;
+  box-shadow: 0px 0px 10px green;
+  margin: 5px 0px; 
+  border-radius: 2px;
+  height: 20px; 
+}
+input[type="submit"] {
+  margin-top: 5px;
+  padding: 5px; 
+}
+
+
+
+main {
+  display: flex; 
+  flex-direction: row;
+  gap: 10px; 
+  height: 90%; 
+  width: 100%; 
+}
+
+
+main .user-side, 
+main .menu-side {
+  flex: 1;
+  box-shadow: 0px 0px 15px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tin-moi {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quang-cao {
+  position: relative;
+}
+.quang-cao .blank {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+  border: 2px solid green; 
+  background-color: grey;
+}
+
+
+
+.menu-side > div {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-side ul {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.menu-side ul li {
+  border: 0.3px solid green; 
+  padding-left: 15px;
+  display: flex;
+  flex: 1; 
+  align-items: center; 
+}
+.content {
+  width: 60%; 
+  box-shadow: 0px 0px 15px grey;
+  color: white; 
+  background-color: rgb(24, 153, 153);
+  font-size: 2em;
+  text-align: center;
+  padding-top: 15px;
+}
+
+footer {
+  padding: 15px; 
+  background-color: rgb(58, 58, 217);
+  color: white; 
+  text-align: center;
+  font-weight: bold;
+  width: 100%; 
+  height: 10%;
+
+}

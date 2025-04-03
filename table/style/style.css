@@ -1,0 +1,20 @@
+
+table {
+  margin: auto; 
+  width: 90%;
+  border-collapse: collapse;
+  text-align: center;
+}
+table, tr, td, th {
+  border: 1.5px solid green; 
+  padding: 10px; 
+}
+
+th {
+  border: none; 
+  background-color: rgb(133,177,91);
+}
+
+.color_grey {
+  background-color: rgb(220,220,220);
+}

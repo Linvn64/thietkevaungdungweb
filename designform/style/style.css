@@ -1,0 +1,110 @@
+html{
+  margin: 0px; 
+  padding: 0px; 
+}
+
+div {
+  /* border: 0.5px solid black; 
+  padding: 5px; 
+  margin: 2px;  */
+}
+nav {
+  display: flex; 
+  gap: 5px; 
+  justify-content: flex-end;
+}
+.main_content {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 5px; 
+  min-height: 80vh; 
+  height: auto;
+  gap: 3px; 
+}
+/* bar_user */
+.bar_user, 
+.content, 
+.bar_product {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  display: grid;
+  margin: 0px; 
+  box-shadow: 0px 1px 0.5px grey;
+
+}
+
+.bar_user .tieu_de {
+  margin: 0px;
+  background-color: blue;
+  color: white; 
+  padding: 5px; 
+  padding-left: 15px;
+}
+.tin_moi, .quan_tri_tin_tuc, .thong_ke_website, .dang_nhap {
+
+  /* border: 1px solid #000;  */
+}
+.form_group {
+  padding: 10px 3px; 
+}
+.button_group {
+  padding: 0px 3px; 
+}
+.tin_moi {
+  
+}
+
+/* quan tri tin tuc */
+.quan_tri_san_pham a, 
+.danh_muc_thanh_vien a,
+.banner_quang_cao a, 
+.quan_tri_tin_tuc a {
+  display: block; 
+  padding: 5px; 
+  padding-left: 20px;
+  text-decoration: none; /* Bỏ gạch chân */
+  /* border: 1px solid black;  */
+  color: rgb(35, 140, 205);
+}
+.quan_tri_tin_tuc {
+  border-right: none; 
+  border-left: none;
+}
+.content {
+  text-align: center;
+}
+.bar_product .tieu_de {
+  margin: 0px;
+  background-color: blue;
+  color: white; 
+  padding: 5px; 
+  padding-left: 15px;
+}
+
+
+.color-quang-cao {
+  background-color: rgb(186, 181, 181);
+  text-align: center;
+  height: 150px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000; 
+}
+.color-quang-cao p {
+  margin: 0px; 
+  padding: 0px; 
+}
+
+.blank {
+  height: 30px; 
+}
+/* footer */
+footer {
+  color: white; 
+  padding: 10px; 
+  /* width: vh; vh - dung cho height not width - viewport height */
+  background-color: rgb(22, 95, 141);
+  text-align: center;
+}
+

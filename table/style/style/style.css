@@ -1,0 +1,28 @@
+ html {
+
+ }
+ p {
+  color: red;
+  font-size: 26px; 
+ }
+
+ table {
+  border-collapse: collapse;
+
+  margin: auto ; 
+ }
+td, tr 
+ {
+  border: 1px solid black;
+
+ }
+ tr, td{
+  border: 1px solid black ;  
+
+ }
+.gop {
+  background-color: greenyellow;
+}
+ .red_num {
+  color: red; 
+ }
