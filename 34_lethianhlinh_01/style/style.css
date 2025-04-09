@@ -1,0 +1,126 @@
+html{
+  margin: 0px; 
+  font-size: 20px; ;
+}
+
+header img {
+  width: 100%;
+}
+nav {
+  display: flex; 
+  column-gap: 5px;
+  border: 1.5px solid grey; 
+  margin: 10px 0px;
+  padding: 10px; 
+}
+nav h3 {
+  margin: 0px; 
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: red; 
+}
+nav .divider {
+  color: grey; 
+}
+/* main */
+
+main {
+  display: flex; 
+  flex-direction: row;
+  column-gap: 15px;
+}
+
+.menu-san-pham h3, 
+.menu-thanh-loc h3 {
+  margin: 0px; 
+  color:white; 
+  background-color: orange;
+  padding: 8px 2px; 
+}
+/* side-bar */
+.side-bar {
+  width: 60%; 
+  border: 1.5px solid grey; 
+  padding: 4px 1px; 
+}
+.menu-san-pham p{
+  background-color: grey;
+  padding: 5px; 
+  width: 95%;
+  margin: 2px 2px; 
+}
+
+.menu-thanh-loc button {
+  border-radius: none;
+  padding: 5px; 
+  cursor: pointer;
+}
+/* content */
+.hien-thi-san-pham {
+  display: flex;
+  border: 1px solid grey; 
+  margin: 5px;
+}
+.hien-thi-san-pham img{
+  width: 30%; 
+  height: 30%; 
+}
+.hien-thi-san-pham h5 {
+  font-size: 25px;
+}
+
+.hien-thi-san-pham h5, 
+.hien-thi-san-pham p {
+  margin: 15px; 
+  padding: 0px; 
+}
+.content {
+  border: 1.5px solid grey; 
+}
+.danh-muc-hang {
+  display: flex; 
+  flex-direction: row;
+  column-gap: 5px;
+}
+.border-danh-muc-hang {
+  border: 1px solid grey; 
+  margin: 5px; 
+}
+.danh-muc-hang img{
+  width: 100%;
+  height: 80%; 
+  
+}
+
+.item {
+  flex: 1; 
+}
+
+.item h4, 
+.item h3{
+  margin: 0px 15px; 
+}
+
+.item h4 {
+  color: red; 
+}
+
+footer {
+  text-align: center;
+  border: 1px solid grey; 
+  margin-top: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+  font-size: 15px; 
+  /* margin: 0px 8px;  */
+}
+
+footer .divider{
+  margin: 0px 8px; 
+}
